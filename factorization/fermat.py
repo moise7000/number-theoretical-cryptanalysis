@@ -30,7 +30,7 @@ def fermat_factor(n, max_iterations=100000):
     return None, None, f"No factor found after {max_iterations} iterations"
 
 
-# Exemple d'utilisation
+
 if __name__ == "__main__":
     n = int(input("Enter an odd integer to factor: "))
     p, q, message = fermat_factor(n)
